@@ -60,6 +60,7 @@ nav a:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   border: none;
 }
 .schedule-alert i {
