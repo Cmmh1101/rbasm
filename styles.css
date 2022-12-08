@@ -1,16 +1,16 @@
 :root {
   --main-bg: rgb(39, 41, 51);
   --lighter-bg: rgb(94, 97, 112);
-  --light-bg:rgb(90, 94, 118);
+  --light-bg: rgb(90, 94, 118);
   --text-bg: rgb(29, 28, 28);
 }
 
 body {
- margin: 0!important;
- padding: 0!important;
- box-sizing: border-box;
- font-family: 'Gotu', sans-serif;
- background: var(--main-bg);
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-family: "Gotu", sans-serif;
+  background: var(--main-bg);
 }
 
 .accordion-925 {
@@ -20,108 +20,103 @@ body {
 }
 
 .navbar {
- background: var(--main-bg)!important;
- width: 100%;
- position: fixed;
- z-index: 10;
+  background: var(--main-bg) !important;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
 }
 .navbar-toggler {
- background: rgba(255,255,255,.7);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .navbar-toggler:focus {
- box-shadow: none;
+  box-shadow: none;
 }
 
 nav a:active {
-  background: var(--main-bg)!important;
+  background: var(--main-bg) !important;
 }
 
 .hero {
- height: 100vh;
- background: fixed no-repeat center/cover url('/images/hero.jpg'); 
+  height: 100vh;
+  background: fixed no-repeat center/cover url("/images/christmas-5.jpg");
 }
 .placeholder {
- height: 4rem;
+  height: 4rem;
 }
 .services-hero {
- height: 30vh;
- background: center/cover no-repeat url('/images/stones.jpg'); 
-
+  height: 30vh;
+  background: center/cover no-repeat url("/images/stones.jpg");
 }
 
 .hero-reviews {
- height: 35vh;
- background: center/cover no-repeat url('/images/reviews_header.jpg'); 
-
+  height: 35vh;
+  background: center/cover no-repeat url("/images/reviews_header.jpg");
 }
 
 .hero-recommendations {
   height: 35vh;
-  background: center/cover no-repeat url('/images/paint.jpg'); 
- 
- }
-
-.giftcert-hero {
- height: 50vh;
- background: center/cover no-repeat url('/images/giftcert1.jpg'); 
-
+  background: center/cover no-repeat url("/images/paint.jpg");
 }
 
-
+.giftcert-hero {
+  height: 50vh;
+  background: center/cover no-repeat url("/images/giftcert1.jpg");
+}
 
 .christmas-card {
- max-width: 30rem;
+  max-width: 30rem;
 }
 
 .our-team {
- margin-top: 4rem;
- max-height: 85vh;
-
+  margin-top: 4rem;
+  max-height: 85vh;
 }
 
 .our-team-card {
   background: var(--light-bg);
-
 }
 
 .card-body {
   background: var(--text-bg);
   line-height: 1.75;
-  font-size: 1.1rem!important;
+  font-size: 1.1rem !important;
 }
 .quote {
- max-width: 25rem;
+  max-width: 25rem;
 }
 .rockwall-h1 {
- background: var(--main-bg);
- position: absolute;
- bottom: 0;
- width: 100%;
+  background: var(--main-bg);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .logo {
- height: 13rem;
+  height: 13rem;
 }
 
 .title {
- background: linear-gradient(var(--lighter-bg), var(--light-bg), rgb(230, 241, 250));
+  background: linear-gradient(
+    var(--lighter-bg),
+    var(--light-bg),
+    rgb(230, 241, 250)
+  );
 }
 
 .description {
- max-width: 50rem;
- background: var(--text-bg);
+  max-width: 50rem;
+  background: var(--text-bg);
 }
 
 .notice {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- max-width: 50rem;
- min-height: 30rem;
- background: linear-gradient(rgb(0,0,0,0), var(--text-bg));
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 50rem;
+  min-height: 30rem;
+  background: linear-gradient(rgb(0, 0, 0, 0), var(--text-bg));
 }
 
 .certificate {
@@ -135,13 +130,12 @@ nav a:active {
 
 .certificate-link {
   text-decoration: none;
-
 }
 .fall {
   max-width: 35rem;
 }
 section {
- max-width: 50rem;
+  max-width: 50rem;
 }
 
 .favorite {
@@ -150,50 +144,55 @@ section {
 
 .accordion-body,
 .accordion .open {
- background: var(--main-bg)!important;
+  background: var(--main-bg) !important;
 }
 
 .accordion-button {
- background: linear-gradient(to right, var(--main-bg),  var(--main-bg), var(--main-bg), var(--main-bg), var(--main-bg),rgba(255,255,255,.8));
+  background: linear-gradient(
+    to right,
+    var(--main-bg),
+    var(--main-bg),
+    var(--main-bg),
+    var(--main-bg),
+    var(--main-bg),
+    rgba(255, 255, 255, 0.8)
+  );
 }
 
 .dark-link {
- color: var(--main-bg);
+  color: var(--main-bg);
 }
 
 .carousel {
- max-width: 30rem;
-
+  max-width: 30rem;
 }
 footer {
- background: white;
+  background: white;
 }
 
 footer i {
- color: var(--main-bg);
- padding: 4px;
- border: 2px solid white;
+  color: var(--main-bg);
+  padding: 4px;
+  border: 2px solid white;
 }
 
 footer i:hover {
- border: 2px solid var(--main-bg);
- border-radius: 10px;
+  border: 2px solid var(--main-bg);
+  border-radius: 10px;
 }
-
-
 
 .dropdown-menu,
 .dropdown-toggle {
- max-width: 20rem;
+  max-width: 20rem;
 }
 
 .background {
- background:rgba(0,0,0, .6);
- padding: .2rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.2rem;
 }
 
 .music {
- max-width: 20rem;
+  max-width: 20rem;
 }
 
 .recs {
@@ -212,7 +211,7 @@ footer i:hover {
 }
 
 .recs-card {
-  background: linear-gradient(rgba(0,0,0,0), var(--text-bg));
+  background: linear-gradient(rgba(0, 0, 0, 0), var(--text-bg));
   border-radius: 1rem;
   margin: 2rem auto;
   padding: 2rem;
@@ -222,53 +221,48 @@ footer i:hover {
 }
 
 .mailing-list {
-  background:rgb(29, 28, 28)
+  background: rgb(29, 28, 28);
 }
 
 @media screen and (min-width: 450px) {
-
-
-.home-profile {
- width: 20rem;
-}
+  .home-profile {
+    width: 20rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
-   
   nav .fs-5 {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
   }
- .notice {
-  min-height: 16rem;
+  .notice {
+    min-height: 16rem;
+  }
 
-}
+  .certificate {
+    padding: 1rem;
+    font-size: 1rem;
+  }
 
-.certificate {
-  padding: 1rem;
-  font-size: 1rem;
+  .certificate-link img {
+    width: 100px;
+  }
 
-}
+  .notice img {
+    width: 150px;
+  }
 
-.certificate-link img {
-  width: 100px;
-}
+  .description img {
+    margin-bottom: 1rem;
+  }
 
-.notice img {
-  width: 150px;
-}
+  .recs-card img {
+    max-width: 150px;
+    margin: 0 !important;
+    margin-bottom: 1rem !important;
+    font-size: 1rem;
+  }
 
-.description img {
-  margin-bottom: 1rem;
-}
-
-.recs-card img {
-  max-width: 150px;
-  margin: 0!important;
-  margin-bottom: 1rem!important;
-  font-size: 1rem;
-}
-
-.fall {
-  max-width: 14rem;
-}
+  .fall {
+    max-width: 14rem;
+  }
 }
