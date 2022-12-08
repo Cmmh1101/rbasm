@@ -105,8 +105,12 @@ nav a:active {
 }
 
 .description {
-  max-width: 50rem;
+  max-width: 60rem;
   background: var(--text-bg);
+  line-height: 2.5rem;
+}
+.description h4 {
+  line-height: 3rem;
 }
 
 .notice {
