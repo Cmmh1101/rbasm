@@ -1,0 +1,274 @@
+:root {
+  --main-bg: rgb(39, 41, 51);
+  --lighter-bg: rgb(94, 97, 112);
+  --light-bg:rgb(90, 94, 118);
+  --text-bg: rgb(29, 28, 28);
+}
+
+body {
+ margin: 0!important;
+ padding: 0!important;
+ box-sizing: border-box;
+ font-family: 'Gotu', sans-serif;
+ background: var(--main-bg);
+}
+
+.accordion-925 {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+ background: var(--main-bg)!important;
+ width: 100%;
+ position: fixed;
+ z-index: 10;
+}
+.navbar-toggler {
+ background: rgba(255,255,255,.7);
+}
+
+.navbar-toggler:focus {
+ box-shadow: none;
+}
+
+nav a:active {
+  background: var(--main-bg)!important;
+}
+
+.hero {
+ height: 100vh;
+ background: fixed no-repeat center/cover url('/images/hero.jpg'); 
+}
+.placeholder {
+ height: 4rem;
+}
+.services-hero {
+ height: 30vh;
+ background: center/cover no-repeat url('/images/stones.jpg'); 
+
+}
+
+.hero-reviews {
+ height: 35vh;
+ background: center/cover no-repeat url('/images/reviews_header.jpg'); 
+
+}
+
+.hero-recommendations {
+  height: 35vh;
+  background: center/cover no-repeat url('/images/paint.jpg'); 
+ 
+ }
+
+.giftcert-hero {
+ height: 50vh;
+ background: center/cover no-repeat url('/images/giftcert1.jpg'); 
+
+}
+
+
+
+.christmas-card {
+ max-width: 30rem;
+}
+
+.our-team {
+ margin-top: 4rem;
+ max-height: 85vh;
+
+}
+
+.our-team-card {
+  background: var(--light-bg);
+
+}
+
+.card-body {
+  background: var(--text-bg);
+  line-height: 1.75;
+  font-size: 1.1rem!important;
+}
+.quote {
+ max-width: 25rem;
+}
+.rockwall-h1 {
+ background: var(--main-bg);
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
+.logo {
+ height: 13rem;
+}
+
+.title {
+ background: linear-gradient(var(--lighter-bg), var(--light-bg), rgb(230, 241, 250));
+}
+
+.description {
+ max-width: 50rem;
+ background: var(--text-bg);
+}
+
+.notice {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ max-width: 50rem;
+ min-height: 30rem;
+ background: linear-gradient(rgb(0,0,0,0), var(--text-bg));
+
+}
+
+.certificate {
+  margin: 1rem auto;
+  text-align: center;
+  max-width: 40rem;
+  border-radius: 25px;
+  padding: 2rem;
+  line-height: 1.5;
+}
+
+.certificate-link {
+  text-decoration: none;
+
+}
+.fall {
+  max-width: 35rem;
+}
+section {
+ max-width: 50rem;
+}
+
+.favorite {
+  min-height: 17rem;
+}
+
+.accordion-body,
+.accordion .open {
+ background: var(--main-bg)!important;
+}
+
+.accordion-button {
+ background: linear-gradient(to right, var(--main-bg),  var(--main-bg), var(--main-bg), var(--main-bg), var(--main-bg),rgba(255,255,255,.8));
+}
+
+.dark-link {
+ color: var(--main-bg);
+}
+
+.carousel {
+ max-width: 30rem;
+
+}
+footer {
+ background: white;
+}
+
+footer i {
+ color: var(--main-bg);
+ padding: 4px;
+ border: 2px solid white;
+}
+
+footer i:hover {
+ border: 2px solid var(--main-bg);
+ border-radius: 10px;
+}
+
+
+
+.dropdown-menu,
+.dropdown-toggle {
+ max-width: 20rem;
+}
+
+.background {
+ background:rgba(0,0,0, .6);
+ padding: .2rem;
+}
+
+.music {
+ max-width: 20rem;
+}
+
+.recs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.recs a {
+  text-decoration: none;
+  color: var(--main-bg);
+}
+
+.rec-link {
+  text-decoration: underline;
+}
+
+.recs-card {
+  background: linear-gradient(rgba(0,0,0,0), var(--text-bg));
+  border-radius: 1rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 30rem;
+  display: flex;
+  /* align-items:center; */
+}
+
+.mailing-list {
+  background:rgb(29, 28, 28)
+}
+
+@media screen and (min-width: 450px) {
+
+
+.home-profile {
+ width: 20rem;
+}
+}
+
+@media screen and (max-width: 700px) {
+   
+  nav .fs-5 {
+    font-size: 1rem!important;
+  }
+ .notice {
+  min-height: 16rem;
+
+}
+
+.certificate {
+  padding: 1rem;
+  font-size: 1rem;
+
+}
+
+.certificate-link img {
+  width: 100px;
+}
+
+.notice img {
+  width: 150px;
+}
+
+.description img {
+  margin-bottom: 1rem;
+}
+
+.recs-card img {
+  max-width: 150px;
+  margin: 0!important;
+  margin-bottom: 1rem!important;
+  font-size: 1rem;
+}
+
+.fall {
+  max-width: 14rem;
+}
+}
