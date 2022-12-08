@@ -24,6 +24,7 @@ body {
   width: 100%;
   position: fixed;
   z-index: 10;
+  position: relative;
 }
 
 .navbar-toggler {
@@ -43,7 +44,10 @@ nav a:active {
 }
 
 .hero {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+
   height: 100vh;
   background: fixed no-repeat center/cover url("/images/christmas-5.jpg");
   z-index: 2px;
@@ -53,12 +57,19 @@ nav a:active {
   width: 100%;
   color: #ffffff;
   background-color: var(--lighter-bg);
-  position: absolute;
-  top: 90px;
-  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
-  border-radius: 0;
-  z-index: 5;
+}
+.schedule-alert i {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.schedule-alert p {
+  display: flex;
+  align-items: center;
 }
 
 .placeholder {
@@ -248,12 +259,6 @@ footer i:hover {
   background: rgb(29, 28, 28);
 }
 
-@media screen and (min-width: 450px) {
-  .home-profile {
-    width: 20rem;
-  }
-}
-
 @media screen and (max-width: 700px) {
   nav .fs-5 {
     font-size: 1rem !important;
@@ -288,5 +293,11 @@ footer i:hover {
 
   .fall {
     max-width: 14rem;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .home-profile {
+    width: 20rem;
   }
 }
