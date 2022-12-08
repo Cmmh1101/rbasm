@@ -25,12 +25,17 @@ body {
   position: fixed;
   z-index: 10;
 }
+
 .navbar-toggler {
-  background: rgba(255, 255, 255, 0.7);
+  background: #ffffffb3;
 }
 
 .navbar-toggler:focus {
   box-shadow: none;
+}
+
+.navbar ul {
+  margin: 0 auto;
 }
 
 nav a:active {
@@ -38,9 +43,24 @@ nav a:active {
 }
 
 .hero {
+  position: relative;
   height: 100vh;
   background: fixed no-repeat center/cover url("/images/christmas-5.jpg");
+  z-index: 2px;
 }
+
+.schedule-alert {
+  width: 100%;
+  color: #ffffff;
+  background-color: var(--lighter-bg);
+  position: absolute;
+  top: 62px;
+  left: 0;
+  border: none;
+  border-radius: 0;
+  z-index: 5;
+}
+
 .placeholder {
   height: 4rem;
 }
@@ -97,11 +117,7 @@ nav a:active {
 }
 
 .title {
-  background: linear-gradient(
-    var(--lighter-bg),
-    var(--light-bg),
-    rgb(230, 241, 250)
-  );
+  background: linear-gradient(var(--lighter-bg), var(--light-bg), #e6f1fa);
 }
 
 .description {
@@ -144,6 +160,10 @@ section {
 
 .favorite {
   min-height: 17rem;
+}
+
+.accordion {
+  margin-bottom: 2rem;
 }
 
 .accordion-body,
