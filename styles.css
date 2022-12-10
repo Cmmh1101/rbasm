@@ -19,12 +19,19 @@ body {
   margin-right: auto;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
 .navbar {
   background: var(--main-bg) !important;
+  display: flex;
   width: 100%;
   position: fixed;
   z-index: 10;
-  position: relative;
+  padding-top: 0;
 }
 
 .navbar-toggler {
@@ -38,6 +45,9 @@ body {
 .navbar ul {
   margin: 0 auto;
 }
+.navbar a {
+  font-size: 1rem !important;
+}
 
 nav a:active {
   background: var(--main-bg) !important;
@@ -45,11 +55,9 @@ nav a:active {
 
 .hero {
   display: flex;
-  flex-direction: column;
   flex-flow: wrap;
-
-  height: 100vh;
-  background: fixed no-repeat center/cover url("/images/christmas-5.jpg");
+  height: 80vh;
+  background: fixed no-repeat center/cover url("/images/christmas-4.jpg");
   z-index: 2px;
 }
 
@@ -62,6 +70,9 @@ nav a:active {
   align-items: center;
   flex-direction: column;
   border: none;
+  border-radius: 0;
+  /* position: absolute;
+  top: 0; */
 }
 .schedule-alert i {
   font-size: 1.5rem;
@@ -125,7 +136,7 @@ nav a:active {
 }
 
 .logo {
-  height: 13rem;
+  height: 10rem;
 }
 
 .title {
@@ -162,6 +173,23 @@ nav a:active {
 
 .certificate-link {
   text-decoration: none;
+  padding: 30px;
+  transition: all 0.5s ease-in-out;
+}
+.certificate-link:hover img {
+  transform: scale(1.05);
+}
+.certificate-link img {
+  width: 300px;
+  height: 350px;
+}
+.certificate-link p {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #e6f1fa;
+}
+.certificate-link span {
+  text-decoration: underline;
 }
 .fall {
   max-width: 35rem;
