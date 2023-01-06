@@ -57,15 +57,12 @@ nav a:active {
   display: flex;
   flex-flow: wrap;
   height: 80vh;
-  background: fixed no-repeat center/cover url("/images/christmas-4.jpg");
+  background: fixed no-repeat center/cover url("/images/relaxing-view.jpg");
   z-index: 2px;
-  /* position: relative; */
 }
 
 .schedule-alert {
   width: 100%;
-  /* min-height: auto; */
-  /* height: 200px; */
   height: 100px;
   color: #ffffff;
   background-color: var(--lighter-bg);
@@ -76,8 +73,6 @@ nav a:active {
   border: none;
   border-radius: 0;
   margin-top: 100px;
-  /* position: absolute;
-  bottom: 0; */
 }
 .schedule-alert i {
   font-size: 1.5rem;
@@ -286,7 +281,6 @@ footer i:hover {
   padding: 2rem;
   max-width: 30rem;
   display: flex;
-  /* align-items:center; */
 }
 
 .mailing-list {
@@ -350,7 +344,4 @@ footer i:hover {
   .home-profile {
     width: 20rem;
   }
-  /* .schedule-alert {
-    margin-top: 190px;
-  } */
 }
