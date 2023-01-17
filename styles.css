@@ -2,11 +2,11 @@
   --main-bg: #003f5a;
   --lighter-bg: #007a7a;
   /* --lighter-bg: rgb(94, 97, 112); */
-  --light-bg: #5edeec;
+  --light-bg: #80edf9;
   /* --light-bg: rgb(90, 94, 118); */
   --text-bg: rgb(29, 28, 28);
   --pop-color: #fea02f;
-  --dark-pop-color: #de6600;
+  --dark-pop-color: #bf5b02;
 }
 
 body {
