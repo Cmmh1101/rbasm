@@ -1,8 +1,12 @@
 :root {
-  --main-bg: rgb(39, 41, 51);
-  --lighter-bg: rgb(94, 97, 112);
-  --light-bg: rgb(90, 94, 118);
+  --main-bg: #003f5a;
+  --lighter-bg: #007a7a;
+  /* --lighter-bg: rgb(94, 97, 112); */
+  --light-bg: #5edeec;
+  /* --light-bg: rgb(90, 94, 118); */
   --text-bg: rgb(29, 28, 28);
+  --pop-color: #fea02f;
+  --dark-pop-color: #de6600;
 }
 
 body {
@@ -10,7 +14,20 @@ body {
   padding: 0 !important;
   box-sizing: border-box;
   font-family: "Gotu", sans-serif;
-  background: var(--main-bg);
+  color: var(--main-bg);
+  background: var(--light-bg);
+}
+
+h1 {
+  color: var(--pop-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark-pop-color);
 }
 
 .accordion-925 {
@@ -20,6 +37,7 @@ body {
 }
 
 .header {
+  background: var(--main-bg);
   display: flex;
   justify-content: space-between;
   padding: 0;
@@ -56,16 +74,52 @@ nav a:active {
 .hero {
   display: flex;
   flex-flow: wrap;
-  height: 80vh;
-  background: fixed no-repeat center/cover url("/images/relaxing-view.jpg");
-  z-index: 2px;
+  background-color: var(--main-bg);
+  /* background-color: #00c2cb; */
+  /* min-height: 100vh; */
+  /* background: url("/images/Valentines-day.svg");
+  background-position: top;
+  background-size: cover;
+  object-fit: scale-down;
+  background-repeat: no-repeat; */
+  /* margin-top: 100px; */
+}
+
+.hero-jumbo {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+.hero-jumbo .hero-title {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.hero-jumbo .hero-title h1 {
+  color: var(--pop-color);
+}
+.hero-jumbo .hero-title a {
+  /* background-color: ; */
+}
+.hero-jumbo img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .schedule-alert {
   width: 100%;
-  height: 100px;
-  color: #ffffff;
-  background-color: var(--lighter-bg);
+  height: auto;
+  color: var(--main-bg);
+  background-color: var(--light-bg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +158,7 @@ nav a:active {
 
 .giftcert-hero {
   height: 50vh;
-  background: center/cover no-repeat url("/images/giftcert1.jpg");
+  background: center/cover no-repeat url("/images/valentines-day-1.svg");
 }
 
 .christmas-card {
@@ -112,19 +166,35 @@ nav a:active {
 }
 
 .our-team {
-  margin-top: 4rem;
-  max-height: 85vh;
+  width: 100%;
 }
 
 .our-team-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--light-bg);
+  margin: 2rem 0;
+}
+.our-team-card img {
+  width: 50%;
+  height: 800px;
+  object-fit: cover;
+  object-position: top center;
 }
 
-.card-body {
+.team-card {
+  width: 50%;
+  font-size: 1rem;
+  padding: 1rem;
+  line-height: 2;
+}
+
+/* .card-body {
   background: var(--text-bg);
   line-height: 1.75;
   font-size: 1.1rem !important;
-}
+} */
 .quote {
   max-width: 25rem;
 }
@@ -136,18 +206,19 @@ nav a:active {
 }
 
 .logo {
-  height: 10rem;
+  height: 100px;
 }
 
-.title {
+/* .title {
   background: linear-gradient(var(--lighter-bg), var(--light-bg), #e6f1fa);
-}
+} */
 
 .description {
-  max-width: 60rem;
-  background: var(--text-bg);
+  padding: 5rem 0;
+  color: var(--main-bg);
   line-height: 2.5rem;
 }
+
 .description h4 {
   line-height: 3rem;
 }
@@ -180,8 +251,8 @@ nav a:active {
   transform: scale(1.05);
 }
 .certificate-link img {
-  width: 300px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
 }
 .certificate-link p {
   font-size: 1.2rem;
@@ -288,13 +359,53 @@ footer i:hover {
 }
 
 @media screen and (max-width: 1294px) {
-  .schedule-alert {
+  /* .schedule-alert {
     margin-top: 150px;
-  }
+  } */
 }
 @media screen and (max-width: 991px) {
-  .schedule-alert {
+  /* .schedule-alert {
     margin-top: 160px;
+  } */
+
+  .hero {
+    height: auto;
+  }
+
+  .hero-jumbo {
+    height: auto;
+  }
+  .hero-jumbo .hero-title {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+  .hero-jumbo img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .our-team-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--light-bg);
+    margin: 2rem 0;
+  }
+  .our-team-card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  .team-card {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    line-height: 2;
   }
 }
 
@@ -307,12 +418,12 @@ footer i:hover {
   }
 
   .certificate {
-    padding: 1rem;
+    /* padding: 1rem; */
     font-size: 1rem;
   }
 
   .certificate-link img {
-    width: 100px;
+    width: 500px;
   }
 
   .notice img {
@@ -335,9 +446,9 @@ footer i:hover {
   }
 }
 @media screen and (max-width: 693px) {
-  .schedule-alert {
+  /* .schedule-alert {
     margin-top: 185px;
-  }
+  } */
 }
 
 @media screen and (min-width: 450px) {
