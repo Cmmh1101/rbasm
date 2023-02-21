@@ -105,9 +105,10 @@ nav a:active {
 .hero-jumbo .hero-title h1 {
   color: var(--pop-color);
 }
-.hero-jumbo .hero-title a {
-  /* background-color: ; */
+.hero-jumbo .hero-title p {
+  font-size: 1.4rem;
 }
+
 .hero-jumbo img {
   width: 60%;
   height: 100%;
@@ -158,7 +159,10 @@ nav a:active {
 
 .giftcert-hero {
   height: 50vh;
-  background: center/cover no-repeat url("/images/valentines-day-1.svg");
+  background-image: url("/images/envelope.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .christmas-card {
