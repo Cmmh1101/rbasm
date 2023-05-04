@@ -95,14 +95,6 @@ nav a:active {
   display: flex;
   flex-flow: wrap;
   background-color: var(--main-bg);
-  /* background-color: #00c2cb; */
-  /* min-height: 100vh; */
-  /* background: url("/images/Valentines-day.svg");
-  background-position: top;
-  background-size: cover;
-  object-fit: scale-down;
-  background-repeat: no-repeat; */
-  /* margin-top: 100px; */
 }
 
 .hero-jumbo {
