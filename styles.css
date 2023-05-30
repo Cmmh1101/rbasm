@@ -7,6 +7,7 @@
   --text-bg: rgb(29, 28, 28);
   --pop-color: #fea02f;
   --dark-pop-color: #bf5b02;
+  --light-color: #ffffff;
 }
 
 body {
@@ -14,8 +15,8 @@ body {
   padding: 0 !important;
   box-sizing: border-box;
   font-family: "Gotu", sans-serif;
-  color: var(--main-bg);
-  background: var(--light-bg);
+  color: var(--light-color)!important;
+  background: var(--main-bg);
 }
 
 h1 {
@@ -27,11 +28,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-pop-color);
+  color: var(--pop-color);
 }
 
 .accent-color {
-  color: var(--dark-pop-color);
+  color: var(--pop-color);
 }
 
 .new-setup {
@@ -171,8 +172,8 @@ nav a:active {
 
 .giftcert-hero {
   height: 50vh;
-  background-image: url("/images/envelope.jpg");
-  background-position: bottom;
+  background-image: url("/images/fathers-day-1.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -222,7 +223,8 @@ nav a:active {
 }
 
 .logo {
-  height: 100px;
+  width: 130px;
+  height: 130px;
 }
 
 /* .title {
@@ -231,7 +233,7 @@ nav a:active {
 
 .description {
   padding: 5rem 0;
-  color: var(--main-bg);
+  color: var(-light-color);
   line-height: 2.5rem;
 }
 
@@ -420,7 +422,7 @@ footer i:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: var(--light-bg);
+    background: var(--main-bg);
     margin: 2rem 0;
   }
   .our-team-card img {
