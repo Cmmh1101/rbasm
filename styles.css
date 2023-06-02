@@ -58,14 +58,14 @@ h6 {
 }
 
 .header {
-  background: var(--main-bg);
+  background: #000000!important;
   display: flex;
   justify-content: space-between;
   padding: 0;
 }
 
 .navbar {
-  background: var(--main-bg) !important;
+  background: #000000!important;
   display: flex;
   width: 100%;
   position: fixed;
