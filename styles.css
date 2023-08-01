@@ -187,6 +187,7 @@ nav a:active {
 }
 .hero-ourteam img{
   height: 60vh;
+  object-fit: cover;
 }
 
 .christmas-card {
