@@ -158,26 +158,35 @@ nav a:active {
   height: 4rem;
 }
 .services-hero {
-  height: 30vh;
+  height: 60vh;
   background: center/cover no-repeat url("/images/stones.jpg");
 }
 
 .hero-reviews {
-  height: 35vh;
+  height: 60vh;
   background: center/cover no-repeat url("/images/reviews_header.jpg");
 }
 
 .hero-recommendations {
-  height: 35vh;
+  height: 60vh;
   background: center/cover no-repeat url("/images/paint.jpg");
 }
 
 .giftcert-hero {
-  height: 50vh;
+  height: 60vh;
   background-image: url("/images/summer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero-ourteam {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+.hero-ourteam img{
+  height: 60vh;
 }
 
 .christmas-card {
