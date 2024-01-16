@@ -128,7 +128,7 @@ nav a:active {
 
 .hero-jumbo img {
   width: 50%;
-  /* height: 100%; */
+  min-height: 400px;
   object-fit: cover;
   object-position: center;
 }
@@ -425,6 +425,7 @@ footer i:hover {
   .hero-jumbo img {
     width: 100%;
     min-height: 400px;
+    max-height: 500px;
     /* object-fit: cover; */
     object-position: center;
     /* margin-top: 90px; */
