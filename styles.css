@@ -36,8 +36,8 @@ h6 {
 }
 
 .accent-font {
-  font-weight: 800;
   color: var(--light-bg);
+  font-style: italic;
 }
 
 .main-cta {
