@@ -126,7 +126,6 @@ nav a:active {
   flex-flow: wrap;
 }
 
-
 .hero-jumbo .hero-title {
   width: 100%;
   height: 100%;
@@ -464,7 +463,7 @@ footer i:hover {
     font-size: 1.6rem;
   }
   .hero-jumbo .hero-title p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
   .hero-jumbo img {
     width: 100%;
@@ -509,10 +508,10 @@ footer i:hover {
     /* padding: 0.8rem; */
   }
   .hero-jumbo .hero-title h1 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   .hero-jumbo .hero-title p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .certificate {
