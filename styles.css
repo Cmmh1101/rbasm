@@ -221,13 +221,13 @@ nav a:active {
 .hero-recommendations .light-overlay {
   width: 100%;
   height: 100%;
-  background-color: #e6f1fa85;
+  background-color: #282828b6;
   position: absolute;
   z-index: 10;
 }
 
 .hero-recommendations h2 {
-  color: var(--main-bg);
+  /* color: var(--dark-pop-color); */
   font-weight: bolder;
   z-index: 15;
 }
