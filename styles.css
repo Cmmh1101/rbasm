@@ -420,6 +420,13 @@ footer i:hover {
 .dropdown-toggle {
   max-width: 20rem;
 }
+.dropdown-menu {
+  padding: 0;
+  color: black;
+  font-weight: bolder;
+  /* background-color:#ff69B4; */
+  background-color:var(--pop-color);
+}
 
 .background {
   background: rgba(0, 0, 0, 0.6);
